@@ -8,15 +8,13 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "echo Iniciando...",
-    "prestart": "echo prestart",
-    "poststart": "echo poststart",
-    "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/ && cp -r node_modules/font-awesome/css src/components/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/font-awesome/",
-    "nodesass": "node-sass"
   },
   "author": "Denilson Ribeiro",
   "license": "ISC"
