@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold; }
+
 .header-nav {
   background-color: #a5cac4; }
   .js .header-nav {
@@ -46,4 +51,58 @@
 
 .header-animado {
   background-color: #64a59a;
-  height: 300px; }
+  padding-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .header-animado__title {
+    color: #064f6a;
+    font-size: 38px !important;
+    font-weight: bold !important; }
+  .header-animado__subtitle {
+    color: white !important;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 1.35; }
+  .header-animado__imageAnimated {
+    background-image: url(../imagens/cenario_all_960.png);
+    height: 150px;
+    background-size: auto 100%;
+    background-position: center top; }
+    .header-animado__imageAnimated > div {
+      display: none; }
+
+@keyframes anima_cenario {
+  from {
+    transform: translateX(-50%) translateZ(0); }
+  to {
+    transform: translateX(0%) translateZ(0%); } }
+    @media screen and (min-width: 480px) {
+      .header-animado__imageAnimated {
+        background-image: url(../imagens/cenario_all_1530.png); } }
+    @media screen and (min-width: 960px) {
+      .header-animado__imageAnimated {
+        background-image: url(../imagens/cenario_bg.png);
+        height: 300px;
+        position: relative; }
+        .header-animado__imageAnimated > div {
+          display: block;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 4800px; }
+        .header-animado__imageAnimated .nuvens {
+          background-image: url(../imagens/cenario_nuvens.png);
+          animation: anima_cenario 90s linear infinite reverse; }
+        .header-animado__imageAnimated .casas {
+          background-image: url(../imagens/cenario_casas.png);
+          animation: anima_cenario 40s linear infinite reverse; }
+        .header-animado__imageAnimated .rua {
+          background-image: url(../imagens/cenario_rua.png);
+          animation: anima_cenario 40s linear infinite reverse; }
+        .header-animado__imageAnimated .carrosCima {
+          background-image: url(../imagens/cenario_carrosCima.png);
+          animation: anima_cenario 20s linear infinite reverse; }
+        .header-animado__imageAnimated .carrosBaixo {
+          background-image: url(../imagens/cenario_carrosBaixo.png);
+          animation: anima_cenario 20s linear infinite; } }
