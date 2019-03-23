@@ -3,7 +3,7 @@
     @mixin sombra($angle, $distance){
         content: '';
         position: absolute;
-        background: #777;
+        background: #ff6600;
         width: 50%;
         height: 8px;
         bottom: 12px;

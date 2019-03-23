@@ -8,13 +8,14 @@
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-watch": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo Iniciando...",
+    "start": "echo Iniciando..."
   },
   "author": "Denilson Ribeiro",
   "license": "ISC"

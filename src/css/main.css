@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5, h6, .title {
     background-image: url(../imagens/cenario_all_960.png);
     height: 150px;
     background-size: auto 100%;
-    background-position: center top; }
+    background-position: center top;
+    overflow: hidden; }
     .header-animado__imageAnimated > div {
       display: none; }
 
@@ -115,7 +116,7 @@ h1, h2, h3, h4, h5, h6, .title {
   .card-portifolio:before {
     content: '';
     position: absolute;
-    background: #777;
+    background: #ff6600;
     width: 50%;
     height: 8px;
     bottom: 12px;
@@ -126,7 +127,7 @@ h1, h2, h3, h4, h5, h6, .title {
   .card-portifolio:after {
     content: '';
     position: absolute;
-    background: #777;
+    background: #ff6600;
     width: 50%;
     height: 8px;
     bottom: 12px;
@@ -165,7 +166,7 @@ h1, h2, h3, h4, h5, h6, .title {
     height: auto; }
 
 .rodape {
-  background-color: #4f877e;
+  background-color: #45776f;
   color: white;
   padding: 1em 0; }
   .rodape .text-right {
