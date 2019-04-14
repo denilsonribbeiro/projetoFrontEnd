@@ -1,7 +1,19 @@
 .rodape{
+    
+    .color-icon{
+        fill: darken($main-color, 30);
+        transition: fill .2s;
+        
+        &:hover{
+            fill: darken($main-color, 25);
+        }
+    }
+    
     background-color: darken($main-color, 15%);
     color: white;
     padding: 1em 0;
+    
+
     
     .text-right{
         color: #ccc;

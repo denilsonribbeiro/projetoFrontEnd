@@ -1,12 +1,1 @@
-input[type="text"], input[type="email"], textarea.form-control {
-  margin-bottom: 25px;
-  transition: background .3s; }
-  input:focus[type="text"], input:focus[type="email"], textarea.form-control:focus {
-    background: #f5f9f9; }
-
-input[type="text"], input[type="email"] {
-  padding: 25px 15px; }
-
-textarea.form-control {
-  height: 180px;
-  padding: 15px 10px; }
+input[type=email],input[type=text],textarea.form-control{margin-bottom:25px;transition:background .3s}input:focus[type=email],input:focus[type=text],textarea.form-control:focus{background:#f5f9f9}input[type=email],input[type=text]{padding:25px 15px}textarea.form-control{height:180px;padding:15px 10px}
