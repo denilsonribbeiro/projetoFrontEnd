@@ -96,14 +96,17 @@ h1, h2, h3, h4, h5, h6, .title {
   margin-bottom: 0;
   padding-bottom: 0; }
   .header-animado__title {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     color: #064f6a;
     font-size: 38px !important;
     font-weight: bold !important; }
   .header-animado__subtitle {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     color: white !important;
     font-size: 32px;
     font-weight: lighter;
-    line-height: 1.35; }
+    line-height: 1.35;
+    margin-bottom: 1.5em; }
   .header-animado__imageAnimated {
     background-image: url(../imagens/cenario_all_960.png);
     height: 150px;

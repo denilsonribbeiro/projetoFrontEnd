@@ -17,7 +17,7 @@ function sass(){
 }
 
 function html(){
-    return src('src/index.html')
+    return src('src/*.html')
         .pipe(include())
         .pipe(dest('dist/'))
 }

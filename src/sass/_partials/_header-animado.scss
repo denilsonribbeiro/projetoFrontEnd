@@ -8,6 +8,7 @@
     padding-bottom: 0;
     
     &__title{
+        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
         color: #064f6a;
         font-size: 38px !important;
         font-weight: bold !important;
@@ -15,10 +16,12 @@
     }
     
     &__subtitle{
+        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
         color: white !important;
         font-size: 32px;
         font-weight: lighter;
         line-height: 1.35;
+        margin-bottom: 1.5em;
     }
     
     &__imageAnimated{
