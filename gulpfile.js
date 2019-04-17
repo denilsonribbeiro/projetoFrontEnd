@@ -10,7 +10,7 @@ const uglify = require('gulp-uglify');
 const browserSync = require('browser-sync').create();
 const reload = browserSync.reload();
 
-
+/*Comentario teste*/
 function copy(){
     return src(['src/components/**/*', 'src/css/**/*', 'src/imagens/**/*'], {'base': 'src'})
         .pipe(dest('dist/'))
